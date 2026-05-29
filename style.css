@@ -1,0 +1,27 @@
+.board{
+  display:flex;
+  gap:20px;
+}
+
+.group{
+  width:400px;
+  min-height:300px;
+  padding:10px;
+  border:1px solid #999;
+  background:#f5f5f5;
+  display: flex;
+  gap:24px;
+}
+
+.item{
+  padding:12px;
+  margin:8px 0;
+  background:white;
+  border:1px solid #ccc;
+  cursor:grab;
+  width: 48px;
+}
+
+.dragging{
+  opacity:.4;
+}
